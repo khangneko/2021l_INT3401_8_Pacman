@@ -17,3 +17,4 @@ Solutions to Pacman project assignment.
                     successorPath = list(path)
                     successorPath.append(successor)
                     fringe.push(successorPath)
+Ở câu hỏi số 5, 
