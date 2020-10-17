@@ -1,4 +1,4 @@
-# 2021l_INT3401_8_Pacman
+# 2021l_INT3401_8_Pacman_Search
 Solutions to Pacman project assignment.
 
 4 câu hỏi đầu tiên yêu cầu cài đặt các thuật toán tìm kiếm DFS, BFS, UCS và A* search. Về mặt ý tưởng thì 4 thuật toán này là tương tự. Chỉ khác duy nhất ở cấu trúc dữ liệu dùng để lưu trữ đường đi của pacman. Đối với DFS và BFS thì cấu trúc mình chọn là Stack và Queue. Đối với UCS và A* thì đều sử dụng Priority Queue với cost là tham số mức độ ưu tiên. Ở A* thì chi phí còn phải cộng thêm với giá trị heuristic. Mình sẽ viết thêm một hàm search để có thể dùng chung với 4 bài toán trên với tham số chỉ thay đổi ở giá trị "fringe":
